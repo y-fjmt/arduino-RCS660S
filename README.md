@@ -3,6 +3,9 @@
 ## はじめに
 SONYのRCS660/SモジュールをArduinoで利用するためのライブラリです。  
 前モデルのRCS620/S用のライブラリの[arduino-RCS620S](http://blog.felicalauncher.com/sdk_for_air/?page_id=2699)と互換性を持たせているのでそのままご利用いただけます。
+> [!NOTE]
+> [arduino-RCS620S](http://blog.felicalauncher.com/sdk_for_air/?page_id=2699)での`push()`は非対応です。
+
 
 ## ライブラリ使用上のご注意
 本ライブラリは、原則として入力値や内部状態の検査を行いません。
